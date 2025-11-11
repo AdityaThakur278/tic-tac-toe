@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.parentContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameContainer {
+  height: 50vh;
+}
+
+.tableContainer {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tableCell {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.buttonContainer {
+  height: 50vh;
+  margin-left: 50px;
+}
+
+.stepButton {
+  padding: 4px;
+  margin-bottom: 2px;
+  display: block;
+}
