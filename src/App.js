@@ -70,7 +70,7 @@ const getWinnerInfo = (board) => {
   // check right diagonal
   let isRightDiagonalSame = true;
   for (let i = 1; i < n; i++) {
-    isRightDiagonalSame &= board[i][n - i - 1] === board[i - 1][n - i - 2];
+    isRightDiagonalSame &= board[i][n - i - 1] === board[i - 1][n - i];
   }
   if (isRightDiagonalSame && board[0][n - 1])
     return { isWinner: true, winner: board[0][n - 1] };
